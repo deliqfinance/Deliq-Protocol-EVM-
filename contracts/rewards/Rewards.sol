@@ -61,7 +61,7 @@ contract Rewards is Ownable {
             })
         );
     }
-
+      //function hashdomain
     function _hashDomain(EIP712Domain memory eip712Domain) private pure returns (bytes32) {
         return
             keccak256(
