@@ -13,7 +13,7 @@ interface IDefiRound {
     }
 
     struct AccountDataDetails {
-        address token; // address of the allowed token deposited
+        address token; // address of  allowed token deposited
         uint256 initialDeposit; // initial amount deposited of the token
         uint256 currentBalance; // current balance of the token that can be used to claim DLQ
         uint256 effectiveAmt; //Amount deposited that will be used towards DLQ
