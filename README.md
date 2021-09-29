@@ -16,6 +16,8 @@ Updates about the protocol can be found in our blogs here [blogs](https://deliqf
 
 ## Connect with community
 ***
+Our telegram channel [telegram](https://t.me/DeliqFinance)
+
 You can join our [Discord](https://discord.gg/byTvJACbsQ) channel here.
 
 Link to our [twitter](https://twitter.com/deliqfinance) handle.
