@@ -10,7 +10,7 @@ This Public repository contains the smart contract code and market configuration
 ***
 THe documentation of Deliq protocol V1.0 can be found at the following [Deliq V1 documentation](https://deliqfinance.com/developers/) link.At the documentation you can learn more about the protocol , contract interfaces , integration guides and gitbook.
 
-A more detailed explaination of the protocol can be found here [whitepaper](https://deliqfinance.com/wp-content/uploads/2021/09/Deliq-Whitepaper.pdf).
+A more detailed explaination of the protocol can be found here [whitepaper](https://deliqfinance.gitbook.io/deliq-finance/).
 
 Updates about the protocol can be found in our blogs here [blogs](https://deliqfinance.medium.com).
 
