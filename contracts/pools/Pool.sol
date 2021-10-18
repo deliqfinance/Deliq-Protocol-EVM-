@@ -139,7 +139,7 @@ contract Pool is ILiquidityPool, Initializable, ERC20, Ownable, Pausable {
             }
         }
     }
-
+//approve the manager function to handle assets
     function approveManager(uint256 amount) public override onlyOwner {
         uint256 currentAllowance = underlyer.allowance(address(this), address(manager));
         if (currentAllowance < amount) {
@@ -179,7 +179,7 @@ contract Pool is ILiquidityPool, Initializable, ERC20, Ownable, Pausable {
     function unpause() external override onlyOwner {
         _unpause();
     }
-
+//internally accesible deposit function
     function _deposit(
         address fromAccount,
         address toAccount,
