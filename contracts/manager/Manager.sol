@@ -40,28 +40,6 @@ contract Manager is IManager, Initializable, AccessControl {
     // Reentrancy Guard 
     bool private _entered = false;
 
-    modifier onlyAdmin() {
-        require(hasRole(ADMIN_ROLE, _msgSender()), "NOT_ADMIN_ROLE");
-        _;
-    }
-
-    modifier onlyRollover() {
-        require(hasRole(ROLLOVER_ROLE, _msgSender()), "NOT_ROLLOVER_ROLE");
-        _;
-    }
-
-    modifier onlyMidCycle() {
-        require(hasRole(MID_CYCLE_ROLE, _msgSender()), "NOT_MID_CYCLE_ROLE");
-        _;
-    }
-
-    modifier nonReentrant() {
-        require(!_entered, "ReentrancyGuard: reentrant call");
-        _entered = true;
-        _;
-        _entered = false;
-    }
-
     function initialize(uint256 _cycleDuration) public initializer {
         __Context_init_unchained();
         __AccessControl_init_unchained();
