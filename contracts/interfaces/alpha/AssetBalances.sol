@@ -3,6 +3,6 @@
 pragma solidity 0.7.6;
 
 struct AssetBalance {
-    address asset;
+    address token;
     uint256 amount;
 }
